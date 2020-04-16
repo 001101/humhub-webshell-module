@@ -17,7 +17,7 @@ class Module extends \humhub\components\Module
     /**
      * @var string console greetings
      */
-    public $greetings = 'Yii 2.0 Webshell';
+    public $greetings = 'HumHub Webshell';
 
     /**
      * @var array URL to use for `quit` command. If not set, `quit` command will do nothing.
@@ -27,14 +27,14 @@ class Module extends \humhub\components\Module
     /**
      * @var string path to `yii` script
      */
-    public $yiiScript = '@protected\yii';
+    public $yiiScript = '@web/protected/yii';
 
     /**
      * @var string path to the yii console app configuration file
      * used to run the yii command in the same process as the web application's
      * if so chosen.
      */
-    public $consoleConfig = '@protected/humhub/config/console.php';
+    public $consoleConfig = '@web/protected/humhub/config/console.php';
 
     /**
      * @var array the list of IPs that are allowed to access this module.
